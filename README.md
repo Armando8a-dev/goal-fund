@@ -8,8 +8,8 @@
 ![Tests](https://img.shields.io/badge/tests-18%20passing-success)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-🔗 **Live demo:** _coming soon_
-📜 **Contract (Sepolia):** _deploy pending_
+🔗 **Live demo:** https://goal-fund-b4.netlify.app
+📜 **Contract (Sepolia):** [0x05b68fB48C0448C8E6B46f6Db29D2d4629dE9CE9](https://sepolia.etherscan.io/address/0x05b68fB48C0448C8E6B46f6Db29D2d4629dE9CE9)
 
 ---
 
