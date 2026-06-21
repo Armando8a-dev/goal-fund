@@ -1,0 +1,81 @@
+export const GOAL_FUND_ADDRESS = "0x05b68fB48C0448C8E6B46f6Db29D2d4629dE9CE9";
+
+export const GOAL_FUND_ABI = [
+  {
+    type: "function",
+    name: "creator",
+    inputs: [],
+    outputs: [{ type: "address" }],
+    stateMutability: "view",
+  },
+  {
+    type: "function",
+    name: "goal",
+    inputs: [],
+    outputs: [{ type: "uint256" }],
+    stateMutability: "view",
+  },
+  {
+    type: "function",
+    name: "deadline",
+    inputs: [],
+    outputs: [{ type: "uint256" }],
+    stateMutability: "view",
+  },
+  {
+    type: "function",
+    name: "totalRaised",
+    inputs: [],
+    outputs: [{ type: "uint256" }],
+    stateMutability: "view",
+  },
+  {
+    type: "function",
+    name: "withdrawn",
+    inputs: [],
+    outputs: [{ type: "bool" }],
+    stateMutability: "view",
+  },
+  {
+    type: "function",
+    name: "contributions",
+    inputs: [{ type: "address" }],
+    outputs: [{ type: "uint256" }],
+    stateMutability: "view",
+  },
+  {
+    type: "function",
+    name: "isGoalReached",
+    inputs: [],
+    outputs: [{ type: "bool" }],
+    stateMutability: "view",
+  },
+  {
+    type: "function",
+    name: "isActive",
+    inputs: [],
+    outputs: [{ type: "bool" }],
+    stateMutability: "view",
+  },
+  {
+    type: "function",
+    name: "contribute",
+    inputs: [],
+    outputs: [],
+    stateMutability: "payable",
+  },
+  {
+    type: "function",
+    name: "withdraw",
+    inputs: [],
+    outputs: [],
+    stateMutability: "nonpayable",
+  },
+  {
+    type: "function",
+    name: "refund",
+    inputs: [],
+    outputs: [],
+    stateMutability: "nonpayable",
+  },
+] as const;
